@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    width: auto;
+    height: 200px;
+    background-color: aqua;
+}
+
+.content{
+    width: auto;
+    height: 1200px;
+    background-color: blueviolet;
+}
+
+.footer{
+    width: auto;
+    height: 200px;
+    background-color: coral;
+}
