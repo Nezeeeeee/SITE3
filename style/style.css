@@ -27,10 +27,24 @@ padding-top: 1200px;
 background-color: crimson;
 }
 
+.center_side{
+
+float: none;
+height: auto;
+margin-left: 200px;
+margin-right: 200px;
+
+background-color: darkgray;
+}
+
 .left_side{
 float: left;
 width: 200px;
 height: auto;
 padding-top: 1200px;
 background-color: darkcyan;
+}
+p{
+    position: absolute;
+    
 }
