@@ -4,7 +4,7 @@
 }
 .header{
     width: auto;
-    height: 200px;
+    height: 100px;
     background-color: aqua;
 }
 
@@ -18,4 +18,19 @@
     width: auto;
     height: 200px;
     background-color: coral;
+}
+.right_side{
+float: right;
+width: 200px;
+height: auto;
+padding-top: 1200px;
+background-color: crimson;
+}
+
+.left_side{
+float: left;
+width: 200px;
+height: auto;
+padding-top: 1200px;
+background-color: darkcyan;
 }
