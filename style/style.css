@@ -129,3 +129,15 @@ nav ul li:hover ul{
     
 }
 /*End Верхнии картинки-ссылки*/
+
+/*Begin оставшаяся часть header*/
+.nameofsite{
+    text-align: right;
+    color: whitesmoke;
+    padding-top: 10px;
+    height: 51px;
+    background: url(../pictures/back2.jpg) no-repeat center;
+    background-size: 100%;
+    
+}
+/*End оставшаяся часть header*/
