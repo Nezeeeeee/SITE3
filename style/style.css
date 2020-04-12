@@ -139,5 +139,15 @@ nav ul li:hover ul{
     background: url(../pictures/back.jpg) no-repeat center;
     background-size: 100%;
     
+    
+}
+div.nameofsite h1{
+    float: right;
+    text-align: center;
+    width: 500px;
+    border: 2px solid white;
+    background-color: rgb(78, 139, 231);
+    text-align: center;
+    border-radius: 10px;
 }
 /*End оставшаяся часть header*/
