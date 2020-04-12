@@ -146,7 +146,8 @@ div.nameofsite h1{
     text-align: center;
     width: 500px;
     border: 2px solid white;
-    background-color: rgb(78, 139, 231);
+    background-color: #1e1e1e;
+    color: white;
     text-align: center;
     border-radius: 10px;
 }
