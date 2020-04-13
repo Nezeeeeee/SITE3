@@ -2,7 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
-
+a{
+    text-decoration: none;
+}
 .header {
     width: auto;
     height: 100px;
@@ -30,15 +32,15 @@
 }
 
 .center_side {
-    
-    height: auto;
     margin-left: 200px;
     margin-right: 200px;
-    background-color: darkgray;
     height: 1200px;
+    background-color: darkgray;
+    
     overflow: auto;
 }
 .rew{
+    background-color: rgb(212, 211, 211);
     width: 900px;
     padding-left: 20px;
     text-align: center;
@@ -48,9 +50,16 @@
 .left_side {
     float: left;
     width: 200px;
-    background-color: darkcyan;
+    background-color: white;
     
 }
+.left_side a:visited{  
+    color: black;
+}
+.left_side a:hover{  
+    color: blue;
+}
+
 
 
 
