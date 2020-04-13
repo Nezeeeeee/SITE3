@@ -1,66 +1,69 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-.header{
+
+.header {
     width: auto;
     height: 100px;
     background-color: aqua;
 }
 
-.content{
+.content {
     width: auto;
     height: 1200px;
     background-color: blueviolet;
 }
 
-.footer{
+.footer {
     width: auto;
     height: 200px;
     background-color: coral;
 }
-.right_side{
-float: right;
-width: 200px;
-height: auto;
-padding-top: 1200px;
-background-color: crimson;
+
+.right_side {
+    float: right;
+    width: 200px;
+    height: auto;
+    padding-top: 1200px;
+    background-color: crimson;
 }
 
-.center_side{
+.center_side {
 
-float: none;
-height: auto;
-margin-left: 200px;
-margin-right: 200px;
+    float: none;
+    height: auto;
+    margin-left: 200px;
+    margin-right: 200px;
 
-background-color: darkgray;
+    background-color: darkgray;
 }
 
-.left_side{
-float: left;
-width: 200px;
-height: auto;
-padding-top: 1200px;
-background-color: darkcyan;
+.left_side {
+    float: left;
+    width: 200px;
+    height: auto;
+    padding-top: 1200px;
+    background-color: darkcyan;
 }
-p{
+
+p {
     position: absolute;
-    
+
 }
 
 
 /*<!-- Begin/Menu-->*/
-nav ul{
+nav ul {
     list-style: none;
     background-color: #1e1e1e;
 }
 
-nav > ul > li{
+nav>ul>li {
     float: left;
 }
 
-nav ul::after{
+nav ul::after {
     content: "";
     display: block;
     clear: both;
@@ -74,74 +77,103 @@ nav ul li a {
     width: 125px;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     background-color: #950740;
 }
 
-nav ul ul{
+nav ul ul {
     display: none;
     position: absolute;
 }
 
-nav ul li:hover ul{
+nav ul li:hover ul {
     display: block;
 }
+
 /*<!-- End/Menu-->*/
 
 
 /*Begin Верхнии картинки-ссылки*/
-.vk{
+.vk {
     background: url(../pictures/vk.png) no-repeat center;
     width: 30px;
     height: 30px;
     float: right;
-    
-    padding-top: 9px; 
+
+    padding-top: 9px;
     padding-right: 5px;
 }
-.vk:hover{
+
+.vk:hover {
     background: url(../pictures/vk2.png) no-repeat center;
     width: 30px;
     height: 30px;
     float: right;
-    
-    padding-top: 9px; 
+
+    padding-top: 9px;
     padding-right: 5px;
 }
 
 
-.fb{
+.fb {
     background: url(../pictures/fb.png) no-repeat center;
     width: 30px;
     height: 30px;
     float: right;
     padding-top: 9px;
     padding-right: 20px;
-    
+
 }
-.fb:hover{
+
+.fb:hover {
     background: url(../pictures/fb2.png) no-repeat center;
     width: 30px;
     height: 30px;
     float: right;
     padding-top: 9px;
     padding-right: 20px;
-    
+
 }
+
+.inputtext {
+    margin-top: 10px;
+    float: right;
+
+}
+
+.picsearch {
+    background: url(../pictures/search.png);
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+
+.picsearch:hover {
+    background: url(../pictures/search2.png);
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
 /*End Верхнии картинки-ссылки*/
 
 /*Begin оставшаяся часть header*/
-.nameofsite{
+.nameofsite {
     text-align: center;
     color: black;
     padding-top: 10px;
     height: 51px;
     background: url(../pictures/back.jpg) no-repeat center;
     background-size: 100%;
-    
-    
+
+
 }
-div.nameofsite h1{
+
+div.nameofsite h1 {
     float: right;
     text-align: center;
     width: 500px;
@@ -151,4 +183,5 @@ div.nameofsite h1{
     text-align: center;
     border-radius: 10px;
 }
+
 /*End оставшаяся часть header*/
